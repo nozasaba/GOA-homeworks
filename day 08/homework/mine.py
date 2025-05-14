@@ -22,10 +22,10 @@ print (f"user town is {town} user corps is {corps} user district is {district} a
 num1 = input ("Enter your number: ")
 num2 = input ("Enter your number: ")
 
-print ("num1 + num2")
-print ("num1 - num2")
-print ("num1 * num2")
-print ("num1 / num2")
+print (num1 + num2)
+print (num1 - num2)
+print (num1 * num2)
+print (num1 / num2)
 
 user_age = input("enter your age: ")
 print(f"the user's age is {user_age}.")
