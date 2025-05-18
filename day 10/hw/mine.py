@@ -23,23 +23,23 @@
 #int
 #float
 
-a = 34  boolean
-b = 21
-print (a > b)
+# a = 34  boolean
+# b = 21
+# print (a > b)
 
-print("string")  string,
-a = 1  integer,
-print(a),
+# print("string")  string,
+# a = 1  integer,
+# print(a),
 
-a = 1.1 float,
-print(a)
+# a = 1.1 float,
+# print(a)
 
 
-name = "saba"
-lastname = "Nozadze"
-age = 17
+# name = "saba"
+# lastname = "Nozadze"
+# age = 17
 
-print (f"my name is {name} {lastname} my age is {age}")
+# print (f"my name is {name} {lastname} my age is {age}")
 
 # real_number = 3,
 # result = string_number + str(real_number),
@@ -51,12 +51,15 @@ result = int(string_number) + real_number
 print( result)
 
 
-num1 = input (" enter any number: ")
-num2 = input (" enter any number: ")
-num2 = input (" enter any number: ")
-num3 = input (" enter any number: ")
-num4 = input (" enter any number: ")
-num5 = input (" enter any number: ")
+a =  (int (input (" enter any number: ")))"
+b = (int (input (" enter any number: ")))"
+c = (int (input (" enter any number: ")))"
+d =  (int (input (" enter any number: ")))"
+f =  (int (input (" enter any number: ")))"
+
+
+result ("a + b + c + d + f ")  / 5
+print (f"the aritmetic mean of your number is {result}")
 
 
 fahrenheit = (celsius * 9/5) + 32,
