@@ -1,0 +1,42 @@
+<!--შექმენით ბანკის ანგარიშის დასარეგისტრირებელი ფორმა. დაამატეთ სახელი, გვარი, პირადი ნომერი და იმ თანხის რაოდენობა, რამდენის გამოტანაც გსურთ თქვენი საბანკო ანგარიშიდან. 
+
+ბოლოს დაუმატეთ Drop-down menu სადაც გექნებათ ფულის სამდენიმე ვალუტა:
+• Gel
+• Usd
+• Euro
+• Yen
+
+საიტს ბოლოში აუცილებლად დაუმატეთ Submit ღილაკი. (არ დაგავიწყდეთ, რომ ფორმაში დამატებულ ელემენტებს გაუწეროთ name/value ატრიბუტები  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <form action="#" method="post"></form>
+    <label for="firstname">Name:</label>
+    <input type="text" id="firstname" name="firstname">
+    <br>
+    <label for="lastname">Surname</label>
+    <input type="text" name="lastname" id="lastname">
+    <br>
+
+    <label for="id">ID</label>
+    <input type="text" name="personalid" id="personalid">
+    <br>
+
+    <label for="amount">Amount</label>
+    <br>
+    
+    <option value="gel">Gel</option>
+    <option value="usd">Usd</option>
+    <option value="euro">Euro</option>
+    <option value="yen">Yen</option>
+
+
+
+
+</body>
+</html>
