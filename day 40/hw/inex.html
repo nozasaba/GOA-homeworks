@@ -1,0 +1,46 @@
+<!-- 2) ჩათვალეთ რომ საიტზე დამატებული გაქვთ ერთი პარაგრაფი. მას ჯერ Class Selector-ის საშუალებით გაუწერეთ text-align: left, შემდეგ ID selector-ის გამოყენებით text-align: center და border: 1px solid blue. ასევე, Element Selector-ით Background-color: black გაუწერეთ, ბოლოს კი inline CSS-ის საშუალებით color: red და text-align: center მიანიჭეთ. რა იქნება ამ პარაგრაფის საბოლოო სტილი და რატომ? პასუხი დეტალურად ახსენით.
+
+3) საიტზე დაამატეთ 3 სხვადასხვა level-ის heading. სამივეს მიანიჭეთ იასამნისფერი ტექსტის ფერი, თუმცა პირველ Heading-ს ამ ფერის მნიშვნელობა სიტყვიერად გაუწერეთ, მეორე Heading-ს rgb-ის გამოყენებით და მესამე Heading-ისთვის იისფერის მისანიჭებლად HEX code გამოიყენეთ. Rgb და HEX code-ებზე თქვენ თვითონ გატესტეთ შესაძლო მნიშვნელობები, რათა მიიღოთ იასამნისფერი, ასე უკეთ ჩაწვდებით ორივე კოდის გამოყენების ტექნიკას.
+
+4) საიტზე დაამატეთ 5 ღილაკი. 
+
+    • პირველ 3 ღილაკს მიანიჭეთ მწვანე უკანა ფონი და 2px solid ნარინჯისფერი ბორდერი. (გამოიყენეთ Rgb)
+    • დანარჩენ 2 ღილაკს კი მიეცით მუქი წითელი ფერის უკანა ფონი და ლურჯი ფერის 1px double ბორდერი. (გამოიყენეთ HEX code)
+
+5) საიტზე დაამატეთ 4 ფოტო. თითოეულს მიანიჭეთ განსხვავებული Id და გასტილეთ ინდივიდუალურად:
+
+    •    პირველი ფოტო: ზომა: 100x100, მუქი წითელი ფერის 2px solid ბორდერი.
+    •    მეორე ფოტო: 150x150 ზომით, ლურჯი ფერის 3px dashed ბორდერი.
+    •    მესამე ფოტო: ზომით 200x200,  იისფერი ფერის 4px dotted ბორდერი
+    •    მეოთხე ფოტო კი: ზომაში იყოს 250x250, ბორდერი კი მწვანე ფერის 2px double სტილის ჰქონდეს.
+
+6) გადახედეთ რესურსებს: -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="color: orchid;">Heading Level 1 - სიტყვიერი ფერი</h1>
+<h2 style="color: rgb(218, 112, 214);">Heading Level 2 - RGB კოდი</h2>
+<h3 style="color: #DA70D6;">Heading Level 3 - HEX კოდი</h3>
+
+
+<button style="background-color: rgb(0,128,0); border: 2px solid rgb(255,165,0);">ღილაკი 1</button>
+<button style="background-color: rgb(0,128,0); border: 2px solid rgb(255,165,0);">ღილაკი 2</button>
+<button style="background-color: rgb(0,128,0); border: 2px solid rgb(255,165,0);">ღილაკი 3</button>
+
+<button style="background-color: #8B0000; border: 1px double #0000FF;">ღილაკი 4</button>
+<button style="background-color: #8B0000; border: 1px double #0000FF;">ღილაკი 5</button>
+
+
+<img id="photo1" src="photo1.jpg" alt="ფოტო 1" style="width:100px; height:100px; border: 2px solid #8B0000;">
+<img id="photo2" src="photo2.jpg" alt="ფოტო 2" style="width:150px; height:150px; border: 3px dashed #0000FF;">
+<img id="photo3" src="photo3.jpg" alt="ფოტო 3" style="width:200px; height:200px; border: 4px dotted #DA70D6;">
+<img id="photo4" src="photo4.jpg" alt="ფოტო 4" style="width:250px; height:250px; border: 2px double #008000;">
+
+</body>
+</html>
