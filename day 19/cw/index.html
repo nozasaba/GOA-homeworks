@@ -1,0 +1,50 @@
+<!-- შექმენით ვებ-საიტი სადაც დაამატებთ 3 ვიდეოს და 2 აუდიოს.
+
+3 ვიდეოდან პირველი აუტომატურად უნდა იწყებოდეს საიტის ჩატვირთვისას.
+
+მეორეს ვებსაიტის ჩატვირთვისას ხმა არ უნდა ჰქონდეს და ვიდეოს დასრულებისას თავიდან უნდა იწყებოდეს.
+
+ხოლო მესამე საიტის ჩატვირთვისას უნდა იწყებოდეს ავტომატურად ხმის გარეშე.
+
+რაც შეეხება აუდიოს:
+საიტზე დამატებული 2 აუდიოდან პირველს უნდა ჰქონდეს აბსოლიტურად ყველა კონტროლი, რაც დღეს ვისწავლეთ, მეორე კი საიტის ჩატვირთვისას ავტომატურად უხმოდ უნდა ირთვებოდეს1 -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="blue">
+<video width="400px" controls autoplay>  <!--შევქმენი პირველი ვიდეო-->
+
+    <source src="./mamachemi.mp4" type="video/mp4">
+
+</video>
+
+<video width="400px" controls muted loop>  <!--მეორე ვიდეო-->
+
+    <source src="./Kirame - Fashionnova.mp4" type="video/mp4">
+
+</video>
+
+<video width="400px" muted autoplay>  <!--მესამე ვიდეო-->
+
+    <source src="./FuLA - გამოსულს ....mp4" type="video/mp4">
+</video>
+<!-- რაც შეეხება აუდიოს:
+საიტზე დამატებული 2 აუდიოდან პირველს უნდა ჰქონდეს აბსოლიტურად 
+ყველა კონტროლი, რაც დღეს ვისწავლეთ, მეორე კი საიტის ჩატვირთვისას ავტომატურად უხმოდ უნდა ირთვებოდეს -->
+<audio controls autoplay muted loop >  <!--პირველი აუდიო-->
+    <source src="./Kirame - Fashionnovai.mp3" type="audio/mp3">
+</audio>
+
+<audio controls muted> <!--მეორე აუდიო-->
+
+    <source src="./FuLA - გამოსულს2 ....mp3" type="audio/mp3">
+</audio>
+
+</body>
+</html>

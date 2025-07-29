@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+<meta charset="UTF-8" />
+<title>Books Store - Products</title>
+<style>
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e6f0ff; /* რბილი ცისფერი */
+    color: #003366; /* მუქი ლურჯი ტექსტი */
+    margin: 0;
+    padding: 20px;
+  }
+  .products-section {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .products-header {
+    text-align: center;
+    border-bottom: 3px solid #3366cc;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    font-size: 2.5em;
+    color: #004080;
+  }
+  .product-card {
+    background: #cce0ff;
+    border: 2px solid #3366cc;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 25px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+  }
+  .product-image {
+    width: 150px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 2px solid #003366;
+  }
+  .product-info {
+    flex: 1;
+  }
+  .product-title {
+    font-size: 1.5em;
+    margin: 0 0 10px 0;
+    color: #00264d;
+  }
+  .product-author {
+    font-style: italic;
+    color: #004080;
+    margin-bottom: 8px;
+  }
+  .product-description {
+    color: #001f4d;
+  }
+  .buy-button {
+    background-color: #004080;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  .buy-button:hover {
+    background-color: #00264d;
+  }
+</style>
+</head>
+<body>
+
+<section class="products-section">
+  <h1 class="products-header">წიგნების მაღაზია - პროდუქტები</h1>
+
+  <article class="product-card">
+    <img class="product-image" src="https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=150&q=80" alt="წიგნი 1" />
+    <div class="product-info">
+      <h2 class="product-title">პროგრამირების საფუძვლები</h2>
+      <p class="product-author">ავტორი: გიორგი ჭანტურია</p>
+      <p class="product-description">სრულყოფილი სახელმძღვანელო Python-ის, JavaScript-ის და HTML-ის შესასწავლად.</p>
+      <button class="buy-button">შეძენა</button>
+    </div>
+  </article>
+
+  <article class="product-card">
+    <img class="product-image" src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=150&q=80" alt="წიგნი 2" />
+    <div class="product-info">
+      <h2 class="product-title">ვებ დეველოპმენტის ხელოვნება</h2>
+      <p class="product-author">ავტორი: ნინო ბახტაძე</p>
+      <p class="product-description">განავითარეთ თქვენი ვებ დიზაინის და პროგრამირების უნარები პრაქტიკული პროექტების მეშვეობით.</p>
+      <button class="buy-button">შეძენა</button>
+    </div>
+  </article>
+
+  <article class="product-card">
+    <img class="product-image" src="https://images.unsplash.com/photo-1496104679561-38d2f77b5621?auto=format&fit=crop&w=150&q=80" alt="წიგნი 3" />
+    <div class="product-info">
+      <h2 class="product-title">JavaScript დეტალურად</h2>
+      <p class="product-author">ავტორი: ალექსანდრე მჭედლიძე</p>
+      <p class="product-description">დროის გამომსახველი სახელმძღვანელო JavaScript-ის სიღრმისეული შესასწავლად.</p>
+      <button class="buy-button">შეძენა</button>
+    </div>
+  </article>
+
+</section>
+
+</body>
+</html>

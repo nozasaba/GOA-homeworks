@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Film Reviews</title>
+</head>
+<body>
+  <h1>Leave a Review</h1>
+
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="films.html">Films</a> |
+    <a href="reviews.html">Reviews</a>
+  </nav>
+
+  <form>
+    <label for="film">Choose a film:</label><br>
+    <select id="film" name="film">
+      <option value="interstellar">Interstellar</option>
+      <option value="dark_knight">The Dark Knight</option>
+    </select><br><br>
+
+    <label for="rating">Your Rating (1 to 5):</label><br>
+    <input type="number" id="rating" name="rating" min="1" max="5"><br><br>
+
+    <label for="review">Your Review:</label><br>
+    <textarea id="review" name="review" rows="4" cols="40"></textarea><br><br>
+
+    <input type="submit" value="Submit Review">
+  </form>
+</body>
+</html>

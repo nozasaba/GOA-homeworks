@@ -1,0 +1,73 @@
+<!-- 2) შექმენით რეცეფტების ვებსაიტი, სადაც დაამატებთ ჯანსაღ საკვებს.  ვებსაიტი დაყავით რამდენიმე სექციად. საიტზე დაამატეთ წითელი ფერის heading-ები და რამდენიმე პარაგრაფი, რომელსაც მიანიჭებთ ლურჯ ფერს და გაცენტრავთ. ასევე, აუცილებლად დაამატეთ ფოტოები და გადაიტანეთ საიტის ცენტრში. 
+ დაამატეთ ღილაკები და თქვენი გემოვნებით გასტილეთ.
+
+3) საიტზე დაამატეთ 2 პარაგრაფი, ასევე Level 1 და Level 6 heading-ები. პარაგრაფებსა და Heading-ებს გაუწერეთ ლურჯი dashed ბორდერები. (გამოიყენეთ დივები);
+
+4) საიტზე დაამატეთ რამდენიმე ფოტო, რომელსაც გაუწერთ შავ solid ბორდერს. თითოეულ ფოტოს მიუწერეთ აღწერა და შეუცვალეთ ფერი style ატრიბუტის საშუალებით. 
+(გამოიყენეთ Inline Css)
+
+5) კომენტარის სახით კიდევ ერთხელ ჩამოწერეთ ელემენტები, რომელიც  მიეკუთვნება Inline Element-ებს და ასევე ის ელემენტებიც, რომლებიც მიეკუთვნება Block Level Element-ებს;
+
+6) დაწერეთ თუ რა განსხვავებაა Inline და Block Level Element-ებს შორის;
+
+7) გადახედეთ ჩანაწერს თავიდან, რათა უფრო გაიმტკიცოთ ცოდნა ახალ ნასწავლ მასალაზე.   -->
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8" />
+  <title>ჯანსაღი საკვები - რეცეპტები</title>
+</head>
+<body style="text-align:center; font-family: Arial, sans-serif;">
+
+  <section>
+    <h2 style="color: red;">ჯანსაღი საუზმე</h2>
+    <p style="color: blue; text-align: center;">
+      საუზმე არის დღის მთავარი კვება, რომელიც ენერგიას გვმატებს და გვიცავს წონის ზრდისგან.
+    </p>
+    <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80" 
+         alt="ჯანსაღი საუზმე" style="display: block; margin: 0 auto; border: 3px solid black; color: green;" />
+    <p style="color: blue; text-align: center;">საუზმის ფოტო</p>
+    <button style="padding: 10px 20px; margin: 10px; cursor: pointer;">დაწვრილებით</button>
+  </section>
+
+  <section>
+    <h2 style="color: red;">ჯანსაღი ლანჩი</h2>
+    <p style="color: blue; text-align: center;">
+      ლანჩი უნდა იყოს მსუბუქი და შეიცავდეს ვიტამინებსა და ცილებს.
+    </p>
+    <img src="https://images.unsplash.com/photo-1506801310323-534be5e7f66a?auto=format&fit=crop&w=400&q=80" 
+         alt="ჯანსაღი ლანჩი" style="display: block; margin: 0 auto; border: 3px solid black; color: red;" />
+    <p style="color: blue; text-align: center;">ლანჩის ფოტო</p>
+    <button style="padding: 10px 20px; margin: 10px; cursor: pointer;">დაწვრილებით</button>
+  </section>
+
+  <h1 style="color: blue; border: 2px dashed blue; padding: 5px; display: inline-block;">ჯანსაღი საკვების საიტი</h1>
+  <p style="color: blue; border: 2px dashed blue; padding: 5px; display: inline-block; margin-top: 10px;">
+    ეს საიტი გაჩვენებთ ჯანსაღი საკვების საუკეთესო რეცეპტებს.
+  </p>
+
+  <h6 style="color: blue; border: 2px dashed blue; padding: 5px; display: inline-block; margin-top: 20px;">
+    დაგვიკავშირდით დამატებითი ინფორმაციისთვის
+  </h6>
+  <p style="color: blue; border: 2px dashed blue; padding: 5px; display: inline-block;">
+    ელ-ფოსტა: info@healthyrecipes.ge
+  </p>
+
+  
+  <div style="margin-top: 30px;">
+    <img src="https://images.unsplash.com/photo-1523983302229-3aa4aa9a0fa7?auto=format&fit=crop&w=200&q=80" 
+         alt="ხილი" style="border: 2px solid black; margin: 10px;" />
+    <p style="color: orange;">ჭიქაში მწვანე ხილი</p>
+
+    <img src="https://images.unsplash.com/photo-1502741338009-cac2772e18bc?auto=format&fit=crop&w=200&q=80" 
+         alt="სალათი" style="border: 2px solid black; margin: 10px;" />
+    <p style="color: green;">სასარგებლო სალათი</p>
+
+    <img src="https://images.unsplash.com/photo-1509592149237-4f9d9c7a5a8b?auto=format&fit=crop&w=200&q=80" 
+         alt="წყალი" style="border: 2px solid black; margin: 10px;" />
+    <p style="color: purple;">სუფთა წყალი</p>
+  </div>
+
+
+</body>
+</html>

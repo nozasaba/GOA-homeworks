@@ -1,0 +1,52 @@
+<!-- 2) კომენტარის სახით ჩამოწერეთ ყველა თეგი, რომელიც Drop-Down Menu-ს შექმნისთვის არის საჭირო. 
+ თითოეულს მიუწერეთ განმარტებაც.
+
+3) Level 15-ის დავალებას დაამატეთ Drop-Down Menu, სადაც მომხმარებელს შეეძლება მიუთითოს მისი სქესი. წინა დავალების პირობა: 
+
+შექმენით Facebook-ის სარეგისტრაციო ფორმა და დაამატეთ Username, Email, Password ველები. დამატებით დაამატეთ Checkbox-ები, სადაც მომხმარებელს შეეძლება მონიშნოს:
+• I am not a bot.
+• I agree to the Terms & Conditions.
+• Keep me signed in.
+
+4) შექმენით Goa-ს კურსების სარეგისტრაციო ფორმა, დაამატეთ შემდეგი Input-ები:
+• სახელი და გვარი
+• ასაკი
+• მშობლის სახელი და გვარი
+• მშობლის ტელეფონის ნომერი
+• მოსწავლეს შეეძლოს იმის არჩევა, თუ რომელ კურსზე დარეგისტრირდება
+
+5) დაასრულეთ საკლასო დავალება და თავიდან უყურეთ Level 15 - Level 17 გაკვეთილის ჩანაწერებს.
+-->
+
+
+<!-- 
+<select> — ეს თეგი ქმნის Drop-Down მენიუს. მასში იდება ვარიანტების სია.
+<option> — ეს თეგი აღწერს Drop-Down მენიუს თითოეულ ვარიანტს.
+<label> — ეს თეგი გამოიყენება Input ელემენტების სათაურის მისაწერად (მაგალითად, "აირჩიე სქესი").
+-->
+
+<form>
+  <label for="fullname">სახელი და გვარი:</label><br>
+  <input type="text" id="fullname" name="fullname"><br><br>
+
+  <label for="age">ასაკი:</label><br>
+  <input type="number" id="age" name="age"><br><br>
+
+  <label for="parent-name">მშობლის სახელი და გვარი:</label><br>
+  <input type="text" id="parent-name" name="parent-name"><br><br>
+
+  <label for="parent-phone">მშობლის ტელეფონის ნომერი:</label><br>
+  <input type="tel" id="parent-phone" name="parent-phone"><br><br>
+
+  <!-- Drop-Down კურსების სიისთვის -->
+  <label for="course">აირჩიეთ კურსი:</label><br>
+  <select id="course" name="course">
+    <option value="frontend">Frontend Development</option>
+    <option value="backend">Backend Development</option>
+    <option value="python">Python Programming</option>
+    <option value="design">UI/UX Design</option>
+    <option value="gamedev">Game Development</option>
+  </select><br><br>
+
+  <input type="submit" value="რეგისტრაცია">
+</form>
