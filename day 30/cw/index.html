@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+<meta charset="UTF-8" />
+<title>Contact - წიგნების მაღაზია</title>
+<style>
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e6f0ff;
+    color: #003366;
+    margin: 0; padding: 0;
+  }
+  header, footer {
+    background-color: #3366cc;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+  }
+  main {
+    max-width: 600px;
+    margin: 30px auto;
+    background-color: #cce0ff;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #3366cc;
+    box-shadow: 0 0 10px rgba(51, 102, 204, 0.3);
+  }
+  h1 {
+    color: #004080;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  label {
+    display: block;
+    margin-top: 15px;
+    color: #00264d;
+    font-weight: 600;
+  }
+  input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 2px solid #3366cc;
+    border-radius: 5px;
+    font-size: 1em;
+    resize: vertical;
+  }
+  button {
+    margin-top: 20px;
+    background-color: #004080;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  button:hover {
+    background-color: #00264d;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h2>წიგნების მაღაზია</h2>
+</header>
+
+<main>
+  <h1>კონტაქტი</h1>
+  <form>
+    <label for="name">სახელი</label>
+    <input type="text" id="name" name="name" placeholder="შეიყვანეთ თქვენი სახელი" required>
+
+    <label for="email">ელ-ფოსტა</label>
+    <input type="email" id="email" name="email" placeholder="შეიყვანეთ თქვენი ელ-ფოსტა" required>
+
+    <label for="message">შეტყობინება</label>
+    <textarea id="message" name="message" rows="5" placeholder="შეიყვანეთ შეტყობინება" required></textarea>
+
+    <button type="submit">გაგზავნა</button>
+  </form>
+</main>
+
+<footer>
+  <p>© 2025 წიგნების მაღაზია. ყველა უფლება დაცულია.</p>
+</footer>
+
+</body>
+</html>
