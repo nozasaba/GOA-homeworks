@@ -1,0 +1,84 @@
+  .red-dotted {
+      text-decoration: underline red dotted;
+    }
+
+    .blue-wavy {
+      text-decoration: overline blue wavy;
+    }
+
+    .default-dashed {
+      text-decoration: line-through dashed;
+    }
+
+    /* დავალება 3 */
+    .underline-dotted {
+      text-decoration: underline dotted;
+    }
+
+    .overline-dashed {
+      text-decoration: overline dashed;
+    }
+
+    .line-wavy {
+      text-decoration: line-through wavy;
+    }
+
+    .underline-double {
+      text-decoration: underline double;
+    }
+
+    .underline-solid {
+      text-decoration: underline solid;
+    }
+
+    /* დავალება 4 */
+    h1 {
+      text-decoration: underline;
+    }
+
+    h2 {
+      text-decoration: overline;
+    }
+
+    h3 {
+      text-decoration: line-through blueviolet dashed;
+    }
+
+    em {
+      text-decoration: underline red wavy;
+    }
+
+    strong {
+      text-decoration: underline double;
+    }
+
+    /* დავალება 5 */
+    .container {
+      margin-top: 40px;
+      padding: 20px;
+      border: 2px solid #ccc;
+    }
+
+    #p1 {
+      text-decoration: underline dashed;
+    }
+
+    #p2 {
+      text-decoration: line-through dotted;
+    }
+
+    #em1 {
+      text-decoration: underline wavy green;
+    }
+
+    #strong1 {
+      text-decoration: overline solid blue;
+    }
+
+    #h4 {
+      text-decoration: underline double red;
+    }
+
+    #h5 {
+      text-decoration: overline dashed purple;
+    }

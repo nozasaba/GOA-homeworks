@@ -1,0 +1,66 @@
+<!-- 2) CSS_ში კომენტარის სახით ახსენით თუ რა დანიშნულება აქვს border-radius კუთვნილებას და რამდენი მნიშვნელობა გადაეცემა მას.
+
+3) border-radius-ის მნიშვნელობების შესახებ შექმენით სქემა/ჩანახატი (ანალოგიურად, როგორც გაკვეთილზე გავაკეთეთ). ნახაზის საშუალებით ახსენით რა თანმიმდევრობით აისახება ელემენტის კუთხეებზე ცვლილება border-radius კუთნილების გამოყენების შემთხვევაში.
+
+4) შექმენით Form. მასში დაამატეთ label/input ელემენტები და მომხმარებელს შემოატანინეთ შემდეგი ინფორმაცია:
+
+• Username;
+• Password;
+• Repeat Password.
+
+ჩამოთვლილთაგან თითოეულ Input-ს გაუწერეთ required ატრიბუტი. ამასათანავე, მაუსის გადატარებისას Input ველებს შეუცვალეთ Backgorund-ის ფერი (ლურჯი), label-ებს
+ კი შრიფტის ფერი (წითელი) და ზომა (18px). active მდგომარეობისას Input ველებს text-shadow გაუწერეთ. მთლიან ფორმას მიანიჭეთ ღია ცისფერი Background-ის ფერი.
+
+
+შექმენით მსგავსი ფორმები HTML + CSS_ის გამოყენებით (გასტილვა აუცილებელია, თუმცა არ არის სავალდებულო რომ ანალოგიური განლაგება ჰქონდეს.): -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- border-radius გამოიყენება კუთხეების მომრგვალებისთვის.  
+მას შეიძლება ჰქონდეს:
+1 მნიშვნელობა  ყველა კუთხე ერთნაირად მომრგვალდება. (მაგ: border-radius: 10px;)
+2 მნიშვნელობა  პირველი განსაზღვრავს ზედა-მარცხენა და ქვედა-მარჯვენა კუთხეს, 
+            ხოლო მეორე — ზედა-მარჯვენა და ქვედა-მარცხენა კუთხეს. (მაგ: border-radius: 10px 20px;)
+3 მნიშვნელობა  პირველი — ზედა-მარცხენა, მეორე — ზედა-მარჯვენა და ქვედა-მარცხენა, 
+                მესამე — ქვედა-მარჯვენა. (მაგ: border-radius: 10px 20px 30px;)
+4 მნიშვნელობა  თითოეული კუთხე ცალ-ცალკე (ზედა-მარცხენა, ზედა-მარჯვენა, ქვედა-მარჯვენა, ქვედა-მარცხენა).  
+            (მაგ: border-radius: 5px 10px 15px 20px;) -->
+
+
+<form>
+
+  <div class="form-container">
+    <h2>Registration Form</h2>
+    <form>
+      <label for="name">Enter your Name:</label>
+      <input type="text" name="name" id="name" placeholder="Name" required>
+
+      <label for="surname">Enter your Surname:</label>
+      <input type="text" name="surname" id="surname" placeholder="Surname" required>
+
+      <label for="email">Enter your E-mail:</label>
+      <input type="email" name="email" id="email" placeholder="E-mail" required>
+
+      <label for="password">Enter your Password:</label>
+      <input type="password" name="password" id="password" placeholder="Password" required>
+
+      <button type="submit">Enter</button>
+    
+</form>
+
+
+
+
+
+
+
+</body>
+</html>

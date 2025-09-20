@@ -22,8 +22,7 @@
 
 # 12) შექმენით ფუნქცია სახელწოდებით divide, რომელსაც არგუმენტად ორ რიცხვს. ფუნქციამ პასუხად უნდა დააბრუნოს ამ რიცხვების განაყოფი.
 
-# 13) ჩანაწერს თავიდან უყურეთ აუცილებლად ‼️
-
+# 13) ჩანაწერს თავიდან უყურეთ აუცილებლად 
 # funqciebi gamoiyeneba imistvis rom tavidan avicilot kodis bevrjer gameoreba da kodis martivad gagebistvis
 
 def user_info(name, age):

@@ -1,0 +1,16 @@
+/*  */
+
+.roman-list {
+    list-style-type: lower-roman;
+    list-style-position: inside;
+
+}
+
+.squar-list {
+    list-style-type: square;
+    list-style-position: outside;
+
+}
+
+/* list-style-type gamoiyeneba markeris tipstvis
+list-style-position gansazgvravs teqstis mdebareobas */

@@ -1,0 +1,61 @@
+<!-- 2) შექმენით სამი პარაგრაფი. პირველ პარაგრაფის ტექსტს ქვემოდან გაუსვით წითელი ფერის წერტილოვანი ხაზი, მეორე პარაგრაფს ზემოდან გაუსვით ტალღოვანი 
+ლურჯი ფერის ხაზი და მესამე პარაგრაფის ტექსტს კი - default ფერის წყვეტილი ხაზი გადაუსვით.
+
+3) შექმენით 5 პარაგრაფი, თითოეულს გაუკეთეთ განსხვავებული სტილის ხაზგასმა:
+•    პირველი: underline + dotted
+•    მეორე: overline + dashed
+•     მესამე: line-through + wavy
+•    მეოთხე: underline + double
+•    მეხუთე: underline + solid
+
+
+4) გამოიყენეთ text-decoration კუთვნილება სხვადასხვა ტექსტურ ელემენტზე:
+•    h1 – underline
+•    h2 – overline
+•    h3 – blueviolet dashed line-through
+•    em – wavy red underline
+•    strong – double underline
+
+5) html-ის დოკუმენტში დაამატეთ div ელემენტი და გაუწერეთ კლასი container. div ელემენტში ჩააშენეთ რამდენიმე განსხვავებული ტექსტური ელემენტი (p, em, strong, h1-h6) და ყველას მიანიჭეთ ინდივიდუალური text-decoration-ის სტილი id-ების გამოყენებით. (მაგ: წერტილოვანი, ტალღოვანი, ორმაგი და სხვ.) -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <p class="red-dotted">ეს არის პირველი პარაგრაფი – წითელი წერტილოვანი ხაზით ქვემოდან.</p>
+  <p class="blue-wavy">ეს არის მეორე პარაგრაფი – ლურჯი ტალღოვანი ზემოდან.</p>
+  <p class="default-dashed">ეს არის მესამე პარაგრაფი – default ფერის წყვეტილი ხაზი ტექსტზე.</p>
+
+  <!-- დავალება 3 -->
+  <p class="underline-dotted">პირველი პარაგრაფი – underline + dotted</p>
+  <p class="overline-dashed">მეორე პარაგრაფი – overline + dashed</p>
+  <p class="line-wavy">მესამე პარაგრაფი – line-through + wavy</p>
+  <p class="underline-double">მეოთხე პარაგრაფი – underline + double</p>
+  <p class="underline-solid">მეხუთე პარაგრაფი – underline + solid</p>
+
+  <!-- დავალება 4 -->
+  <h1>ეს არის H1 – underline</h1>
+  <h2>ეს არის H2 – overline</h2>
+  <h3>ეს არის H3 – blueviolet dashed line-through</h3>
+  <p><em>ეს არის em ტექსტი – wavy red underline</em></p>
+  <p><strong>ეს არის strong ტექსტი – double underline</strong></p>
+
+  <!-- დავალება 5 -->
+  <div class="container">
+    <p id="p1">ეს არის პარაგრაფი (dashed underline)</p>
+    <p id="p2">ეს არის მეორე პარაგრაფი (line-through dotted)</p>
+    <em id="em1">ეს არის em ტექსტი (green wavy underline)</em><br>
+    <strong id="strong1">ეს არის strong ტექსტი (solid overline)</strong>
+    <h4 id="h4">ეს არის H4 (double red underline)</h4>
+    <h5 id="h5">ეს არის H5 (dashed overline purple)</h5>
+  </div>
+
+
+</body>
+</html>

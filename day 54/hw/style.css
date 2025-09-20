@@ -1,0 +1,33 @@
+#btn1 {
+      background-color: lightblue;
+      border: 2px solid blue;    
+      padding: 3px;              
+      margin: 10px;              
+      border-radius: 5px;        
+      cursor: pointer;
+    }
+
+    #btn2 {
+      background-color: lightgreen;
+      border: 3px dashed green;  
+      padding: 5px;              
+      margin: 10px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+ 
+    #btn3 {
+      background-color: lightcoral;
+      border: 4px dotted red;    
+      padding: 8px;              
+      margin: 10px;
+      border-radius: 12px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      opacity: 0.8;
+      transform: scale(1.05);
+      transition: 0.2s;
+    }
