@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="width:200px; height:200px; background:lightblue; position:relative;">
+    <div style="width:50px; height:50px; background:red; position:relative; top:20px; left:30px;">
+        Relative
+    </div>
+</div>
+
+<div style="width:200px; height:200px; background:lightgreen; position:relative; margin-top:20px;">
+    <div style="width:50px; height:50px; background:orange; position:absolute; top:20px; left:30px;">
+        Absolute
+    </div>
+</div>
+
+<div style="width:200px; height:200px; background:blue; position:relative;">
+    <div style="width:50px; height:50px; background:red; position:relative; top:20px; left:30px;">
+        შვილი
+    </div>
+</div>
+
+<div style="width:200px; height:200px; background:blue; position:relative;">
+    <div style="width:50px; height:50px; background:red; position:relative; top:20px; left:30px;">
+        შვილი
+    </div>
+</div>
+
+<div style="width:300px; height:300px; background:lightgray; position:relative; margin:20px auto;">
+    <div style="width:50px; height:50px; background:red; position:absolute; top:0; left:0;"></div>
+    <div style="width:50px; height:50px; background:blue; position:absolute; bottom:0; right:0;"></div>
+    <div style="width:50px; height:50px; background:green; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);"></div>
+</div>
+
+
+<div style="position:relative; display:inline-block;">
+    <img src="/comedy.jpg" alt="ფოტო" width="300">
+    <h2 style="position:absolute; bottom:10px; left:10px; color:white; background:rgba(0,0,0,0.5); padding:5px;">
+        ეს არის ფოტოს აღწერა
+    </h2>
+</div>
+
+
+<div style="position:relative; width:100vw; height:100vh;">
+
+    <img src="/comedy.jpg" width="200" 
+        style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);">
+
+    <div style="position:absolute; top:calc(50% - 110px); left:50%; transform:translateX(-50%);
+                width:210px; height:10px; background:black;"></div>
+    
+    <div style="position:absolute; top:calc(50% + 100px); left:50%; transform:translateX(-50%);
+                width:210px; height:10px; background:black;"></div>
+
+    <div style="position:absolute; top:50%; left:calc(50% - 110px); transform:translateY(-50%);
+                width:10px; height:210px; background:black;"></div>
+
+    <div style="position:absolute; top:50%; left:calc(50% + 100px); transform:translateY(-50%);
+                width:10px; height:210px; background:black;"></div>
+</div>
+</body>
+</html>
